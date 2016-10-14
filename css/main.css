@@ -1,0 +1,505 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+/*
+    Artemon90's styles. This is study project. All rights is from original authors
+*/
+
+/*
+    Base .class styles
+*/
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.right-part{
+    width: 50%;
+}
+
+.left-part{
+    width: 50%;
+}
+
+/*
+    End os base .class styles
+
+    Begin of other custom styles
+*/
+
+body{
+    background-color: #e5eabb;
+    border-left, 
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.header{
+    height: 323px;
+    width: 1280px;
+    background-color: #445162;
+    color: #ffffff;
+    padding-bottom: 80px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.header h1{
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.header p{
+    background-image: url(../img/checkmark.png);
+    background-repeat: no-repeat;
+    background-size: 25px 19px;
+    padding-left: 38px;
+    background-position: 5px 3px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.header .white-img-header{
+    width: 468px;
+    height: 215px;
+    background-color: #ffffff;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.header .nav li{
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    top: 330px;
+}
+
+.about{
+    height: 394px;
+    width: 1280px;
+    background-color: #ffffff;
+    padding-top: 5px;
+}
+
+.about h2{
+    font-size: 30px;
+    color: #445161;
+    margin-left: 50px;
+}
+
+.about p{
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.about .about-img{
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.desc-about{
+    width: 750px;
+    padding-top: 20px;
+}
+
+.dignity{
+    width: 1280px;
+    height: 420px;
+    background-color: #f5f5f5;
+    margin-top: -25px;
+    padding-bottom: 40px;
+}
+
+.dignity h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    color: #445161;
+}
+
+.dignity .right-part{
+    width: 50%;
+}
+
+.dignity .left-part{
+    width: 50%;
+}
+
+.dignity p{
+    background-image: url(../img/Add.png);
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    padding-left: 42px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-position: 0px 5px;
+}
+
+.screenshots{
+    width: 1280px;
+    height: 487px;
+    background-color: #ffffff;
+    margin-top: -25px;
+    padding-bottom: 50px;
+}
+
+.screenshots h2{
+    text-align: center;
+    font-size: 30px;
+    color: #445161;
+    padding-top: 40px;
+
+}
+
+.screenshots h3{
+    font-size: 24px;
+    color: #445161;
+}
+
+.screenshots p{
+    font-size: 16px;
+    padding-right: 50px;
+}
+
+.screenshots img{
+    padding-right: 16px;
+    padding-left: 50px;
+
+}
+
+.reviews{
+    width: 1280px;
+    height: 424px;
+    background-color: #f5f5f5;
+    margin-top: -25px;
+    padding-bottom: 50px;
+}
+
+.reviews h2{
+    text-align: center;
+    font-size: 30px;
+    color: #445161;
+    padding-top: 40px;
+}
+
+.reviews .review-name{
+    color: #989898;
+    font-size: 14px;
+    padding-left: 169px; 
+    padding-right: 50px;
+}
+
+.reviews .review{
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 169px;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.reviews .review-element{
+    background-image: url(../img/review-back.png);
+    background-repeat: no-repeat;
+    background-position: 143px;
+    background-size: 440px;
+}
+
+.reviews .review-img{
+    border-radius: 50%;
+    background-color: #445161;
+    width: 75px;
+    height: 75px;
+    margin-left: 50px;
+}
