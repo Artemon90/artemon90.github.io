@@ -315,7 +315,7 @@ textarea {
 
 body{
     background-color: #e5eabb;
-    border-left, 
+    border-left,
 }
 
 .container{
@@ -361,6 +361,11 @@ body{
     list-style-type: none;
     position: relative;
     top: 330px;
+}
+
+.header .nav{
+    width: 1000px;
+    height: 45px;
 }
 
 .about{
@@ -477,7 +482,7 @@ body{
 .reviews .review-name{
     color: #989898;
     font-size: 14px;
-    padding-left: 169px; 
+    padding-left: 169px;
     padding-right: 50px;
 }
 
@@ -502,4 +507,146 @@ body{
     width: 75px;
     height: 75px;
     margin-left: 50px;
+}
+
+.buy-now{
+    width: 1280px;
+    height: 656px;
+    background-color: #ffffff;
+    margin-top: -25px;
+}
+
+.buy-now h2{
+    font-size: 30px;
+    text-align: center;
+    color: #445161;
+    padding-top: 40px;
+}
+
+.buy-now .buy-standart{
+    width: 300px;
+    height: 306px;
+    background-color: #445162;
+    border-radius: 5px;
+    margin-top: 191px;
+    margin-left: 145px;
+}
+
+.buy-now .buy-premium{
+    width: 300px;
+    height: 404px;
+    background-color: #445162;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 94px;
+}
+
+.buy-now .buy-lux{
+    width: 300px;
+    height: 499px;
+    background-color: #445162;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+.buy-now h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.buy-now .buy-now-price-block{
+    width: 296px;
+    height: 70px;
+    background-color: #ffffff;
+    margin: auto;
+}
+
+.buy-now .buy-now-price-block h4{
+    font-size: 40px;
+    color: #445162;
+    text-align: center;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+
+.buy-now li{
+    color: #ffffff;
+    font-size: 14px;
+
+}
+
+.buy-now .buy-btn{
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.buy-now a{
+    text-decoration: none;
+    color: #445162;
+}
+
+.buy-now .buy-btn h4{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.contact{
+    width: 1280px;
+    height: 510px;
+    background-color: #445162;
+    margin-top: -25px;
+    padding-bottom: 70px;
+}
+
+.contact h2{
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.contact form{
+    display: block;
+    margin: ;   
+    margin-left: 250px;
+}
+
+.contact input{
+    width: 500px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 21px;
+}
+
+.contact textarea{
+    width: 500px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.contact input[type="submit"]{
+    width: 140px;
+    height: 40px;
+    margin-left: 180px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #445162;
+}
+
+.footer{
+    width: 1280px;
+    height: 26px;
+    background-color: #ffffff;
+    margin-top: -20px;
+}
+
+.footer p{
+    color: #445162;
+    text-align: center;
+    font-size: 16px;
 }
