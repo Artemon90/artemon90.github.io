@@ -617,7 +617,7 @@ body{
 }
 
 .contact input{
-    width: 500px
+    width: 500px;
     border-radius: 5px;
     height: 40px;
     margin-bottom: 21px;
