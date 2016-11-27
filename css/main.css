@@ -617,16 +617,18 @@ body{
 }
 
 .contact input{
-    width: 500px;
+    width: 500px
     border-radius: 5px;
     height: 40px;
     margin-bottom: 21px;
+    border: none;
 }
 
 .contact textarea{
     width: 500px;
     border-radius: 5px;
     margin-bottom: 16px;
+    border: none
 }
 
 .contact input[type="submit"]{
@@ -636,6 +638,14 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     color: #445162;
+    border: none;
+}
+
+.contact input:focus,
+.contact textarea:focus,
+.contact input[type="submit"]:focus
+{
+    outline: none;
 }
 
 .footer{
